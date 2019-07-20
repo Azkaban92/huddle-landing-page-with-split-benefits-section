@@ -240,6 +240,8 @@ input {width: 70%;
 
   .heading {font-family: "Poppins"; font-weight: 400;}
 
+  .h-title {font-weight: 700; font-size: 60px;}
+
   #par-final {font-family: "Open Sans"; font-weight: 400;}
 
   body {font-size: 16px;}
@@ -303,12 +305,63 @@ input {width: 70%;
                   border: 1px solid #ff79be;
                   background-color: #ff79be;
                   padding: 16px 0px 16px 0px;
-                  width: 28%;
+                  width: 55%;
                   color: white;
                   border-radius: 10px;
                   font-size: 16px;
                   margin-left: auto;
-                  margin-right: auto;}
+                  margin-right: auto;
+                  text-align: center;
+                  font-size: 24px;}
+
+                  #logo2 {margin-bottom: 45px;}
+
+                  .wlogo {fill: white;}
+
+                  footer {color: white; background-color: #00252e;}
+
+                  .subs {text-transform: uppercase;}
+
+                  input {width: 250px; height: 50px;}
+
+                  .btn  {width: 48px;
+                        height: 56px;
+                        margin: 0px;
+                        position: relative;
+                        top: 21px;
+                        right: 5px;
+                        border: 1px solid #ff73c1;
+                        background-color: #ff73c1;
+                        background-image:url("../img/icon-arrow.svg");
+                        background-size: 18px 12px;
+                        background-position: center;
+                        background-repeat:no-repeat;}
+
+
+                  .flex-container3 {display: flex; height: 633px; justify-content: center;}
+
+                  .column1 {width: 25%; order: 1; margin-top: 143px; margin-left: 120px;}
+
+                  .column2 {width: 10%; order: 2; margin-top: 227px; }
+
+                  .column3 {width: 10%; order: 3; margin-top: 227px;}
+
+                  .column4 {width: 25%; order: 4; margin-top: 227px;}
+
+                  .icons {color: white; font-size: 24px;}
+
+                  .fa-twitter {margin-left: 24px; margin-right: 24px;}
+
+                  .background1 {display: flex;
+                                flex-flow: column wrap;
+                                justify-content: flex-end;
+                                align-content: center;
+                                margin-top: 78px;
+                                background-image: url("../img/bg-footer-desktop.png");
+                                background-size: cover;
+                                height: 110px;;
+                                width: 100%;
+                                padding-bottom: 30px;}
 
 }
 
