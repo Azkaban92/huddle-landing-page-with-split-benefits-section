@@ -277,11 +277,18 @@ input {width: 70%;
 
           .h-main {font-weight: 700;}
 
-          .background {display: flex; flex-flow: row wrap; justify-content: center; align-items: center;}
+          .background {display: flex;
+                      flex-flow: row wrap;
+                      justify-content: center;
+                      align-items: center;}
 
-          .hero {order: 2; margin-right: 94px;}
+          .hero {order: 2;
+                margin-right: 94px;}
 
-          .column2 {width: 34%; order: 1; margin-right: 115px; margin-left: 80px;}
+          .column2 {width: 34%;
+                    order: 1;
+                    margin-right: 115px;
+                    margin-left: 80px;}
 
           #users {width: 642px; height: 485px;}
 
