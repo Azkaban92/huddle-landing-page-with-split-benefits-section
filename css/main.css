@@ -198,14 +198,18 @@ input {width: 70%;
        height: 40px;
        margin-left: 27px;}
 
-#arrow {width: 18px;
-        height: 12px;
-        position: relative;
-        bottom: 2px;
-        right: 6px;
-        border: 1px solid #ff73c1;
-        padding: 5% 5% 5% 5%;
-        background-color: #ff73c1;}
+.btn {width: 48px;
+      height: 46px;
+      margin: 0px;
+      position: relative;
+      top: 16px;
+      right: 5px;
+      border: 1px solid #ff73c1;
+      background-color: #ff73c1;
+      background-image:url("../img/icon-arrow.svg");
+      background-size: 18px 12px;
+      background-position: center;
+      background-repeat:no-repeat;}
 
 .wlogo {fill: white;}
 
@@ -239,6 +243,7 @@ input {width: 70%;
   #par-final {font-family: "Open Sans"; font-weight: 400;}
 
   body {font-size: 16px;}
+
 
   #logo {float: left;
          margin-left: 80px;
