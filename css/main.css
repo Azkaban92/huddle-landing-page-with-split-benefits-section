@@ -100,11 +100,11 @@ textarea {
 
 {
 
-  p {font-family: "Open Sans"; font-weight: 400;}
+p {font-family: "Open Sans"; font-weight: 400;}
 
-  .heading {font-family: "Poppins"; font-weight: 400;}
+.heading {font-family: "Poppins"; font-weight: 400;}
 
-  #par-final {font-family: "Open Sans"; font-weight: 400;}
+#par-final {font-family: "Open Sans"; font-weight: 400;}
 
 body {font-size: 16px;}
 
@@ -236,139 +236,152 @@ input {width: 70%;
 @media screen and (min-width: 1440px)
 
 {
-  p {font-family: "Open Sans"; font-weight: 400;}
+p {font-family: "Open Sans"; font-weight: 400;}
 
-  .heading {font-family: "Poppins"; font-weight: 400;}
+.heading {font-family: "Poppins"; font-weight: 400;}
 
-  .h-title {font-weight: 700; font-size: 60px;}
+.h-title {font-weight: 700; font-size: 60px;}
 
-  #par-final {font-family: "Open Sans"; font-weight: 400;}
+#par-final {font-family: "Open Sans"; font-weight: 400;}
 
-  body {font-size: 16px;}
-
-
-  #logo {float: left;
-         margin-left: 80px;
-         margin-top: 80px;
-         margin-bottom: 250px;}
-
-  #illustration {margin-bottom: 294px;
-                text-align: center;}
+body {font-size: 16px;}
 
 
+#logo {float: left;
+      margin-left: 80px;
+      margin-top: 80px;
+      margin-bottom: 250px;}
 
-  #trial {float: right;
-          margin-right: 80px;
-          margin-top: 70px;
-          border: 1px solid #ff7dce;
-          border-radius: 10px;
-          color: #ff7dce;
-          font-size: 24px;
-          padding: 8px 18px 8px 18px;}
-
-          .h-build {clear: both;
-                    margin-left: 56px;
-                    margin-right: 56px;
-                    font-size: 60px;}
-
-          .p-initial {font-size: 24px; width: 54%; text-align: center;}
-
-          .par-main {font-size: 18px;}
-
-          .h-main {font-weight: 700;}
-
-          .background {display: flex;
-                      flex-flow: row wrap;
-                      justify-content: center;
-                      align-items: center;}
-
-          .hero {order: 2;
-                margin-right: 94px;}
-
-          .column2a {width: 34%;
-                    order: 1;
-                    margin-right: 115px;
-                    margin-left: 80px;}
-
-          #users {width: 642px; height: 485px;}
-
-          .hero {text-align: center;}
-
-          .flex-container {display: flex;
-                           flex-flow: column wrap;
-                           width: 100%;
-                           align-items: center;
-                           text-align: center;
-                           justify-content: center;}
-
-          .flex-container1 {display: flex;
-                           flex-flow: column wrap;
-                           width: 100%;
-                           align-items: center;}
-
-          #h-ready {margin-top: 318px;}
-
-          .h-get {margin-bottom: 119px;
-                  border: 1px solid #ff79be;
-                  background-color: #ff79be;
-                  padding: 16px 0px 16px 0px;
-                  width: 55%;
-                  color: white;
-                  border-radius: 10px;
-                  font-size: 16px;
-                  margin-left: auto;
-                  margin-right: auto;
-                  text-align: center;
-                  font-size: 24px;}
-
-                  #logo2 {margin-bottom: 45px;}
-
-                  .wlogo {fill: white;}
-
-                  footer {color: white; background-color: #00252e;}
-
-                  .subs {text-transform: uppercase;}
-
-                  input {width: 250px; height: 50px;}
-
-                  .btn  {width: 48px;
-                        height: 56px;
-                        margin: 0px;
-                        position: relative;
-                        top: 21px;
-                        right: 5px;
-                        border: 1px solid #ff73c1;
-                        background-color: #ff73c1;
-                        background-image:url("../img/icon-arrow.svg");
-                        background-size: 18px 12px;
-                        background-position: center;
-                        background-repeat:no-repeat;}
+#illustration {margin-bottom: 294px;
+               text-align: center;}
 
 
-                  .flex-container3 {display: flex; height: 633px; justify-content: center;}
 
-                  .column1 {width: 25%; order: 1; margin-top: 143px; margin-left: 120px;}
+#trial {float: right;
+        margin-right: 80px;
+        margin-top: 70px;
+        border: 1px solid #ff7dce;
+        border-radius: 10px;
+        color: #ff7dce;
+        font-size: 24px;
+        padding: 8px 18px 8px 18px;}
 
-                  .column2 {width: 10%; order: 2; margin-top: 227px; }
+.h-build {clear: both;
+          margin-left: 56px;
+          margin-right: 56px;
+          font-size: 60px;}
 
-                  .column3 {width: 10%; order: 3; margin-top: 227px;}
+.p-initial {font-size: 24px; width: 54%; text-align: center;}
 
-                  .column4 {width: 25%; order: 4; margin-top: 227px;}
+.par-main {font-size: 18px;}
 
-                  .icons {color: white; font-size: 24px;}
+.h-main {font-weight: 700;}
 
-                  .fa-twitter {margin-left: 24px; margin-right: 24px;}
+.background {display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;}
 
-                  .background1 {display: flex;
-                                flex-flow: column wrap;
-                                justify-content: flex-end;
-                                align-content: center;
-                                margin-top: 78px;
-                                background-image: url("../img/bg-footer-desktop.png");
-                                background-size: cover;
-                                height: 110px;;
-                                width: 100%;
-                                padding-bottom: 30px;}
+.hero {order: 2;
+      margin-right: 94px;}
+
+.column2a {width: 34%;
+           order: 1;
+           margin-right: 115px;
+           margin-left: 80px;}
+
+#users {width: 642px; height: 485px;}
+
+.hero {text-align: center;}
+
+.flex-container {display: flex;
+                 flex-flow: column wrap;
+                 width: 100%;
+                 align-items: center;
+                 text-align: center;
+                 justify-content: center;}
+
+.flex-container1 {display: flex;
+                  flex-flow: column wrap;
+                  width: 100%;
+                  align-items: center;}
+
+#h-ready {margin-top: 318px;}
+
+.h-get {margin-bottom: 119px;
+        border: 1px solid #ff79be;
+        background-color: #ff79be;
+        padding: 16px 0px 16px 0px;
+        width: 55%;
+        color: white;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 24px;}
+
+#logo2 {margin-bottom: 45px;}
+
+.wlogo {fill: white;}
+
+footer {color: white;
+        background-color: #00252e;}
+
+.subs {text-transform: uppercase;}
+
+input {width: 250px; height: 50px;}
+
+.btn{width: 48px;
+     height: 56px;
+     margin: 0px;
+     position: relative;
+     top: 21px;
+     right: 5px;
+     border: 1px solid #ff73c1;
+     background-color: #ff73c1;
+     background-image:url("../img/icon-arrow.svg");
+     background-size: 18px 12px;
+     background-position: center;
+     background-repeat:no-repeat;}
+
+
+.flex-container3 {display: flex; height: 633px;
+                  justify-content: center;}
+
+.column1 {width: 25%;
+          order: 1;
+          margin-top: 143px;
+          margin-left: 120px;}
+
+.column2 {width: 10%;
+          order: 2;
+          margin-top: 227px;}
+
+.column3 {width: 10%;
+          order: 3;
+          margin-top: 227px;}
+
+.column4 {width: 25%;
+          order: 4;
+          margin-top: 227px;}
+
+.icons {color: white;
+        font-size: 24px;}
+
+.fa-twitter {margin-left: 24px;
+             margin-right: 24px;}
+
+.background1 {display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-end;
+              align-content: center;
+              margin-top: 78px;
+              background-image: url("../img/bg-footer-desktop.png");
+              background-size: cover;
+              height: 110px;
+              width: 100%;
+              padding-bottom: 30px;}
 
 }
 
@@ -376,15 +389,15 @@ input {width: 70%;
 
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+ Helper classes
+ ========================================================================== */
 
 /*
  * Hide visually and from screen readers
  */
 
 .hidden {
-  display: none !important;
+display: none !important;
 }
 
 /*
@@ -392,21 +405,21 @@ input {width: 70%;
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 *
 * 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*causes content to wrap 1 word per line:
+*https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
 */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+border: 0;
+clip: rect(0, 0, 0, 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+white-space: nowrap;
+width: 1px;
+/* 1 */
 }
 
 /*
