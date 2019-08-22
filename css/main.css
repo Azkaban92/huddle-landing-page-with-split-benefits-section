@@ -102,11 +102,14 @@ textarea {
 
 {
 
-p {font-family: "Open Sans"; font-weight: 400;}
+p {font-family: "Open Sans";
+   font-weight: 400;}
 
 .heading {font-family: "Poppins";}
 
-#par-final {font-family: "Open Sans"; font-weight: 400;}
+#par-final {font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 16px;}
 
 body {font-size: 16px;}
 
@@ -198,6 +201,9 @@ input {width: 70%;
        height: 40px;
        margin-left: 27px;}
 
+.flex-container__p {display: flex;
+                    justify-content: center;}
+
 input::placeholder {padding-left: 37px;}
 
 .btn {width: 48px;
@@ -218,8 +224,7 @@ input::placeholder {padding-left: 37px;}
 #logo2 {margin: 86px 0 48px 27px;}
 
 .flex-container2 {display: flex;
-                  flex-flow: column wrap;
-                  font-size: 22px;}
+                  flex-flow: column wrap;}
 
 .background1 {display: flex;
               flex-flow: column wrap;
@@ -241,23 +246,29 @@ input::placeholder {padding-left: 37px;}
 
 {
 
-p {font-family: "Open Sans"; font-weight: 400;}
+p {font-family: "Open Sans";
+   font-weight: 400;}
 
 .heading {font-family: "Poppins";}
 
-#par-final {font-family: "Open Sans"; font-weight: 400;}
+#par-final {font-family: "Open Sans";
+            font-weight: 400;}
 
 body {font-size: 16px;}
 
 #logo {float: left;
-       width: 132px;
        margin: 28px 0 128px 24px;}
 
-#illustration {width: 280px;
+#illustration {width: 380px;
               margin-bottom: 73px;
               text-align: center;}
 
-.p-initial {margin-bottom: 121px; font-size: 20px;}
+.p-initial {margin-bottom: 121px;
+            width: 40%;
+            font-size: 20px;}
+
+.flex-container__p {display: flex;
+                    justify-content: center;}
 
 .h-main {margin-bottom: 35px;
          font-weight: 700;}
@@ -266,7 +277,8 @@ body {font-size: 16px;}
            font-size: 20px;}
 
 #trial {float: right;
-        margin: 20px 10px 0 0;
+        font-size: 20px;
+        margin: 28px 24px 0 0;
         border: 1px solid #ff7dce;
         border-radius: 10px;
         color: #ff7dce;
@@ -296,7 +308,7 @@ body {font-size: 16px;}
                  width: 100%;
                  align-items: center;}
 
-#users {width: 280px;
+#users {width: 380px;
         margin-bottom: 100px;}
 
 h3, p   {align-self: flex-start;
@@ -310,13 +322,14 @@ h3, p   {align-self: flex-start;
 .h-get {border: 1px solid #ff79be;
         background-color: #ff79be;
         padding: 16px 0px 16px 0px;
-        width: 60%;
+        width: 40%;
         color: white;
         border-radius: 10px;
         font-size: 20px;
         margin: 0 auto 119px auto;}
 
 footer {background-color: #00252e;
+        font-size: 20px;
         color: white;}
 
 .subs {margin-bottom: 9px;
@@ -331,7 +344,7 @@ footer {background-color: #00252e;
 
 .footer-p {margin-top: 30px;}
 
-input {width: 70%;
+input {width: 260px;
        margin-bottom: 9px;
        color: #e1e6ec;
        display: inline;
@@ -358,8 +371,7 @@ input::placeholder {padding-left: 37px;}
 #logo2 {margin: 86px 0 48px 27px;}
 
 .flex-container2 {display: flex;
-                  flex-flow: column wrap;
-                  font-size: 22px;}
+                  flex-flow: column wrap;}
 
 .background1 {display: flex;
               flex-flow: column wrap;
@@ -379,24 +391,29 @@ input::placeholder {padding-left: 37px;}
 @media screen and (min-width: 1281px)
 
 {
-p {font-family: "Open Sans"; font-weight: 400;}
+p {font-family: "Open Sans";
+   font-weight: 400;}
 
-.heading {font-family: "Poppins"; font-weight: 400;}
+.heading {font-family: "Poppins";
+          font-weight: 400;}
 
-.h-title {font-weight: 700; font-size: 60px;}
+.h-title {font-weight: 700;
+          font-size: 60px;}
 
-#par-final {font-family: "Open Sans"; font-weight: 400;}
+#par-final {font-family: "Open Sans";
+            font-weight: 400;}
 
 body {font-size: 20px;}
 
 
 #logo {float: left;
-       margin: 80 0 250 80;}
+       margin: 80px 0 250px 80px;}
 
 #illustration {margin-bottom: 294px;
                text-align: center;}
 
-
+.flex-container__p {display: flex;
+                    justify-content: center;}
 
 #trial {float: right;
         margin: 70px 80px 0 0;
@@ -484,6 +501,8 @@ input {width: 250px; height: 50px;}
 
 .flex-container3 {display: flex;
                   justify-content: space-between;}
+
+.end-page {display: flex; flex-flow: column nowrap; align-items: center;}
 
 .column1 {width: 25%;
           order: 1;
