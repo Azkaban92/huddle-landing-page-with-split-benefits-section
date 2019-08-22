@@ -96,55 +96,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   /* Mobile */
 
-@media screen and (max-width: 767px)
-
-{
+/* General styles */
 
 p {font-family: "Open Sans";
    font-weight: 400;}
 
-.heading {font-family: "Poppins";}
+.heading {font-family: "Poppins";
+          font-weight: 400;}
 
 #par-final {font-family: "Open Sans";
-            font-weight: 400;
-            font-size: 16px;}
+            font-weight: 400;}
 
-body {font-size: 16px;}
+#illustration {text-align: center;}
 
-#logo {float: left;
-       width: 132px;
-       margin: 28px 0 128px 24px;}
+.flex-container__p {display: flex;
+                    justify-content: center;}
 
-#illustration {width: 280px;
-              margin-bottom: 73px;
-              text-align: center;}
+#logo {float: left;}
 
-.p-initial {margin-bottom: 121px;}
-
-.h-main {margin-bottom: 35px;
-         font-weight: 700;}
-
-.par-main {margin-bottom: 82px;}
 
 #trial {float: right;
-        margin: 20px 10px 0 0;
         border: 1px solid #ff7dce;
         border-radius: 10px;
         color: #ff7dce;
         padding: 8px 18px 8px 18px;}
 
-.h-build {clear: both;
-          margin: 0 56px 66px 56px;
-          font-weight: 700;
-          font-size: 25px;}
-
-.background {background-color: #f6fbff;
-             padding-top: 120px;
-             padding-bottom: 23px;}
-
-.hero {text-align: center;}
+.h-build {clear: both;}
 
 .flex-container {display: flex;
                  flex-flow: column wrap;
@@ -153,10 +131,73 @@ body {font-size: 16px;}
                  text-align: center;
                  justify-content: center;}
 
+
 .flex-container1 {display: flex;
-                 flex-flow: column wrap;
-                 width: 100%;
-                 align-items: center;}
+                  flex-flow: column wrap;
+                  width: 100%;
+                  align-items: center;}
+
+.h-get {border: 1px solid #ff79be;
+        background-color: #ff79be;
+        padding: 16px 0px 16px 0px;
+        width: 60%;
+        color: white;
+        border-radius: 10px;
+        margin: 0 auto 119px auto;}
+
+footer {background-color: #00252e;
+        color: white;}
+
+.btn{width: 48px;
+     background-color: #ff73c1;
+     background-image:url("../img/icon-arrow.svg");
+     background-size: 18px 12px;
+     background-position: center;
+     background-repeat:no-repeat;}
+
+.background1 {display: flex;
+              flex-flow: column wrap;
+              justify-content: flex-end;
+              align-content: center;
+              margin-top: 78px;
+              background-size: cover;
+              width: 100%;}
+
+.copy {padding-bottom: 32px;}
+
+
+   /* Mobile */
+
+@media screen and (max-width: 767px)
+
+{
+
+body {font-size: 16px;}
+
+#logo {width: 132px;
+       margin: 28px 0 128px 24px;}
+
+#illustration {width: 280px;
+              margin-bottom: 73px;}
+
+.p-initial {margin-bottom: 121px;}
+
+.h-main {margin-bottom: 35px;
+         font-weight: 700;}
+
+.par-main {margin-bottom: 82px;}
+
+#trial {margin: 20px 10px 0 0;}
+
+.h-build {margin: 0 56px 66px 56px;
+          font-weight: 700;
+          font-size: 25px;}
+
+.background {background-color: #f6fbff;
+             padding-top: 120px;
+             padding-bottom: 23px;}
+
+.hero {text-align: center;}
 
 #users {width: 80%;
         max-width: 50%;
@@ -168,25 +209,18 @@ h3, p   {align-self: flex-start;
 .end-page {margin-top: 129px;
            text-align: center;}
 
-#h-ready {font-size: 24px; margin-bottom: 46px;}
+#h-ready {font-size: 24px;
+          margin-bottom: 46px;}
 
-.h-get {border: 1px solid #ff79be;
-        background-color: #ff79be;
-        padding: 16px 0px 16px 0px;
-        width: 60%;
-        color: white;
-        border-radius: 10px;
-        font-size: 16px;
-        margin: 0 auto 119px auto;}
-
-footer {background-color: #00252e;
-        color: white;}
+.h-get {width: 60%;
+        font-size: 16px;}
 
 .subs {margin-bottom: 9px;
       text-transform: uppercase;
       padding-top: 132px;}
 
-.icons {margin-left: 27px; margin-top: 52px;}
+.icons {margin-left: 27px;
+        margin-top: 52px;}
 
 .fa-twitter {margin: 0 24px;}
 
@@ -201,23 +235,14 @@ input {width: 70%;
        height: 40px;
        margin-left: 27px;}
 
-.flex-container__p {display: flex;
-                    justify-content: center;}
-
 input::placeholder {padding-left: 37px;}
 
-.btn {width: 48px;
-      height: 46px;
+.btn {height: 46px;
       margin: 0px;
       position: relative;
       top: 16px;
       right: 5px;
-      border: 1px solid #ff73c1;
-      background-color: #ff73c1;
-      background-image:url("../img/icon-arrow.svg");
-      background-size: 18px 12px;
-      background-position: center;
-      background-repeat:no-repeat;}
+      border: 1px solid #ff73c1;}
 
 .wlogo {fill: white;}
 
@@ -226,66 +251,43 @@ input::placeholder {padding-left: 37px;}
 .flex-container2 {display: flex;
                   flex-flow: column wrap;}
 
-.background1 {display: flex;
-              flex-flow: column wrap;
-              justify-content: flex-end;
-              align-content: center;
-              margin-top: 78px;
-              background-image: url(../img/bg-footer-mobile.png);
-              background-size: cover;
-              height: 94px;;
-              width: 100%;}
+.background1 {background-image: url(../img/bg-footer-mobile.png);
+              height: 94px;}
 
-.copy {padding-bottom: 32px;}
 }
 
 /* Tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1280px)
 
-
 {
 
-p {font-family: "Open Sans";
-   font-weight: 400;}
-
-.heading {font-family: "Poppins";}
-
-#par-final {font-family: "Open Sans";
-            font-weight: 400;}
-
-body {font-size: 16px;}
-
-#logo {float: left;
-       margin: 28px 0 128px 24px;}
+#logo {margin: 28px 0 128px 24px;}
 
 #illustration {width: 380px;
-              margin-bottom: 73px;
-              text-align: center;}
+              margin-bottom: 73px;}
 
 .p-initial {margin-bottom: 121px;
             width: 40%;
             font-size: 20px;}
 
-.flex-container__p {display: flex;
-                    justify-content: center;}
-
 .h-main {margin-bottom: 35px;
          font-weight: 700;}
 
 .par-main {margin-bottom: 82px;
-           font-size: 20px;}
+           font-size: 20px;
+           width: 60%;
+           text-align: center;}
 
-#trial {float: right;
-        font-size: 20px;
-        margin: 28px 24px 0 0;
-        border: 1px solid #ff7dce;
-        border-radius: 10px;
-        color: #ff7dce;
-        padding: 8px 18px 8px 18px;}
+.column2a {display: flex;
+           flex-flow: column nowrap;
+           align-items: center;
+           justify-content: center;}
 
-.h-build {clear: both;
-          margin: 0 56px 66px 56px;
+#trial {font-size: 20px;
+        margin: 28px 24px 0 0;}
+
+.h-build {margin: 0 56px 66px 56px;
           font-weight: 700;
           width: 360px;
           font-size: 40px;}
@@ -296,47 +298,27 @@ body {font-size: 16px;}
 
 .hero {text-align: center;}
 
-.flex-container {display: flex;
-                 flex-flow: column wrap;
-                 width: 100%;
-                 align-items: center;
-                 text-align: center;
-                 justify-content: center;}
-
-.flex-container1 {display: flex;
-                 flex-flow: column wrap;
-                 width: 100%;
-                 align-items: center;}
-
 #users {width: 380px;
         margin-bottom: 100px;}
 
-h3, p   {align-self: flex-start;
-         margin: 0 32px 0 27px;}
+h3, p   {margin: 0 32px 0 27px;}
 
 .end-page {margin-top: 129px;
            text-align: center;}
 
 #h-ready {font-size: 40px; margin-bottom: 46px;}
 
-.h-get {border: 1px solid #ff79be;
-        background-color: #ff79be;
-        padding: 16px 0px 16px 0px;
-        width: 40%;
-        color: white;
-        border-radius: 10px;
-        font-size: 20px;
-        margin: 0 auto 119px auto;}
+.h-get {width: 40%;
+        font-size: 20px;}
 
-footer {background-color: #00252e;
-        font-size: 20px;
-        color: white;}
+footer {font-size: 20px;}
 
 .subs {margin-bottom: 9px;
       text-transform: uppercase;
       padding-top: 132px;}
 
-.icons {margin-left: 27px; margin-top: 52px;}
+.icons {margin-left: 27px;
+        margin-top: 52px;}
 
 .fa-twitter {margin: 0 24px;}
 
@@ -353,18 +335,12 @@ input {width: 260px;
 
 input::placeholder {padding-left: 37px;}
 
-.btn {width: 48px;
-      height: 46px;
+.btn {height: 46px;
       margin: 0px;
       position: relative;
       top: 16px;
       right: 5px;
-      border: 1px solid #ff73c1;
-      background-color: #ff73c1;
-      background-image:url("../img/icon-arrow.svg");
-      background-size: 18px 12px;
-      background-position: center;
-      background-repeat:no-repeat;}
+      border: 1px solid #ff73c1;}
 
 .wlogo {fill: white;}
 
@@ -373,17 +349,8 @@ input::placeholder {padding-left: 37px;}
 .flex-container2 {display: flex;
                   flex-flow: column wrap;}
 
-.background1 {display: flex;
-              flex-flow: column wrap;
-              justify-content: flex-end;
-              align-content: center;
-              margin-top: 78px;
-              background-image: url(../img/bg-footer-mobile.png);
-              background-size: cover;
-              height: 94px;;
-              width: 100%;}
-
-.copy {padding-bottom: 32px;}
+.background1 {background-image: url(../img/bg-footer-mobile.png);
+              height: 94px;}
 }
 
 /* Desktop */
@@ -391,11 +358,6 @@ input::placeholder {padding-left: 37px;}
 @media screen and (min-width: 1281px)
 
 {
-p {font-family: "Open Sans";
-   font-weight: 400;}
-
-.heading {font-family: "Poppins";
-          font-weight: 400;}
 
 .h-title {font-weight: 700;
           font-size: 60px;}
@@ -405,26 +367,12 @@ p {font-family: "Open Sans";
 
 body {font-size: 20px;}
 
+#logo {margin: 80px 0 250px 80px;}
+#illustration {margin-bottom: 298px;}
+#trial {margin: 70px 80px 0 0;
+        font-size: 24px;}
 
-#logo {float: left;
-       margin: 80px 0 250px 80px;}
-
-#illustration {margin-bottom: 294px;
-               text-align: center;}
-
-.flex-container__p {display: flex;
-                    justify-content: center;}
-
-#trial {float: right;
-        margin: 70px 80px 0 0;
-        border: 1px solid #ff7dce;
-        border-radius: 10px;
-        color: #ff7dce;
-        font-size: 24px;
-        padding: 8px 18px 8px 18px;}
-
-.h-build {clear: both;
-          margin: 0 56px;
+.h-build {margin: 0 56px;
           font-size: 60px;}
 
 .p-initial {font-size: 24px;
@@ -451,27 +399,9 @@ body {font-size: 20px;}
 
 .hero {text-align: center;}
 
-.flex-container {display: flex;
-                 flex-flow: column wrap;
-                 width: 100%;
-                 align-items: center;
-                 text-align: center;
-                 justify-content: center;}
-
-.flex-container1 {display: flex;
-                  flex-flow: column wrap;
-                  width: 100%;
-                  align-items: center;}
-
 #h-ready {margin-top: 318px;}
 
-.h-get {border: 1px solid #ff79be;
-        background-color: #ff79be;
-        padding: 16px 0px 16px 0px;
-        width: 55%;
-        color: white;
-        margin: 0 auto 119px auto;
-        border-radius: 10px;
+.h-get {width: 55%;
         font-size: 16px;
         text-align: center;
         font-size: 24px;}
@@ -480,20 +410,12 @@ body {font-size: 20px;}
 
 .wlogo {fill: white;}
 
-footer {color: white;
-        background-color: #00252e;}
-
 .subs {text-transform: uppercase;}
 
 input {width: 250px; height: 50px;}
 
-.btn{width: 48px;
-     height: 56px;
-     background-color: #ff73c1;
-     background-image:url("../img/icon-arrow.svg");
-     background-size: 18px 12px;
-     background-position: center;
-     background-repeat:no-repeat;}
+.btn {height: 56px;
+      border: 1px solid #ff73c1;}
 
 .form-email {display: flex;
              flex-flow: row nowrap;
@@ -502,7 +424,11 @@ input {width: 250px; height: 50px;}
 .flex-container3 {display: flex;
                   justify-content: space-between;}
 
-.end-page {display: flex; flex-flow: column nowrap; align-items: center;}
+.end-page {display: flex;
+           flex-flow: column nowrap;
+           align-items: center;
+           order: 2;}
+
 
 .column1 {width: 25%;
           order: 1;
@@ -527,16 +453,8 @@ input {width: 250px; height: 50px;}
 .fa-twitter {margin-left: 24px;
              margin-right: 24px;}
 
-.background1 {display: flex;
-              flex-flow: column wrap;
-              justify-content: flex-end;
-              align-content: center;
-              margin-top: 78px;
-              background-image: url("../img/bg-footer-desktop.png");
-              background-size: cover;
-              height: 110px;
-              width: 100%;
-              padding-bottom: 30px;}
+.background1 {background-image: url("../img/bg-footer-desktop.png");
+              height: 110px;}
 
 }
 
