@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+.logo/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -105,20 +105,22 @@ p {font-family: "Open Sans";
 .heading {font-family: "Poppins";
           font-weight: 400;}
 
-#par-final {font-family: "Open Sans";
+.par-final {font-family: "Open Sans";
             font-weight: 400;}
 
-#illustration {text-align: center;}
+.illustration {text-align: center;}
 
 .flex-container__p {display: flex;
                     justify-content: center;}
 
-#logo {float: left;}
+.p {color: hsl(208, 11%, 55%);}
 
+.logo {float: left;}
 
-#trial {float: right;
+.trial {float: right;
         border: 1px solid #ff7dce;
         border-radius: 10px;
+        box-shadow: 0 0 8px hsla(322, 100%, 66%, 0.2);
         color: #ff7dce;
         padding: 8px 18px 8px 18px;}
 
@@ -142,6 +144,7 @@ p {font-family: "Open Sans";
         padding: 16px 0px 16px 0px;
         width: 60%;
         color: white;
+        box-shadow: 4px 4px 8px hsla(208, 11%, 55%, 0.4);
         border-radius: 10px;
         margin: 0 auto 119px auto;}
 
@@ -165,6 +168,7 @@ footer {background-color: #00252e;
 
 .copy {padding-bottom: 32px;}
 
+input::placeholder {padding-left: 37px;}
 
    /* Mobile */
 
@@ -174,10 +178,10 @@ footer {background-color: #00252e;
 
 body {font-size: 16px;}
 
-#logo {width: 132px;
+.logo {width: 132px;
        margin: 28px 0 128px 24px;}
 
-#illustration {width: 280px;
+.illustration {width: 280px;
               margin-bottom: 73px;}
 
 .p-initial {margin-bottom: 121px;}
@@ -187,7 +191,7 @@ body {font-size: 16px;}
 
 .par-main {margin-bottom: 82px;}
 
-#trial {margin: 20px 10px 0 0;}
+.trial {margin: 20px 10px 0 0;}
 
 .h-build {margin: 0 56px 66px 56px;
           font-weight: 700;
@@ -199,7 +203,7 @@ body {font-size: 16px;}
 
 .hero {text-align: center;}
 
-#users {width: 80%;
+.users {width: 80%;
         max-width: 50%;
         margin-bottom: 100px;}
 
@@ -209,7 +213,7 @@ h3, p   {align-self: flex-start;
 .end-page {margin-top: 129px;
            text-align: center;}
 
-#h-ready {font-size: 24px;
+.h-ready {font-size: 24px;
           margin-bottom: 46px;}
 
 .h-get {width: 60%;
@@ -235,8 +239,6 @@ input {width: 70%;
        height: 40px;
        margin-left: 27px;}
 
-input::placeholder {padding-left: 37px;}
-
 .btn {height: 46px;
       margin: 0px;
       position: relative;
@@ -246,7 +248,7 @@ input::placeholder {padding-left: 37px;}
 
 .wlogo {fill: white;}
 
-#logo2 {margin: 86px 0 48px 27px;}
+.logo-bottom {margin: 86px 0 48px 27px;}
 
 .flex-container2 {display: flex;
                   flex-flow: column wrap;}
@@ -262,9 +264,9 @@ input::placeholder {padding-left: 37px;}
 
 {
 
-#logo {margin: 28px 0 128px 24px;}
+.logo {margin: 28px 0 128px 24px;}
 
-#illustration {width: 380px;
+.illustration {width: 380px;
               margin-bottom: 73px;}
 
 .p-initial {margin-bottom: 121px;
@@ -284,7 +286,7 @@ input::placeholder {padding-left: 37px;}
            align-items: center;
            justify-content: center;}
 
-#trial {font-size: 20px;
+.trial {font-size: 20px;
         margin: 28px 24px 0 0;}
 
 .h-build {margin: 0 56px 66px 56px;
@@ -298,7 +300,7 @@ input::placeholder {padding-left: 37px;}
 
 .hero {text-align: center;}
 
-#users {width: 380px;
+.users {width: 380px;
         margin-bottom: 100px;}
 
 h3, p   {margin: 0 32px 0 27px;}
@@ -306,7 +308,7 @@ h3, p   {margin: 0 32px 0 27px;}
 .end-page {margin-top: 129px;
            text-align: center;}
 
-#h-ready {font-size: 40px; margin-bottom: 46px;}
+.h-ready {font-size: 40px; margin-bottom: 46px;}
 
 .h-get {width: 40%;
         font-size: 20px;}
@@ -333,8 +335,6 @@ input {width: 260px;
        height: 40px;
        margin-left: 27px;}
 
-input::placeholder {padding-left: 37px;}
-
 .btn {height: 46px;
       margin: 0px;
       position: relative;
@@ -344,7 +344,7 @@ input::placeholder {padding-left: 37px;}
 
 .wlogo {fill: white;}
 
-#logo2 {margin: 86px 0 48px 27px;}
+.logo-bottom {margin: 86px 0 48px 27px;}
 
 .flex-container2 {display: flex;
                   flex-flow: column wrap;}
@@ -362,14 +362,14 @@ input::placeholder {padding-left: 37px;}
 .h-title {font-weight: 700;
           font-size: 60px;}
 
-#par-final {font-family: "Open Sans";
+.par-final {font-family: "Open Sans";
             font-weight: 400;}
 
 body {font-size: 20px;}
 
-#logo {margin: 80px 0 250px 80px;}
-#illustration {margin-bottom: 298px;}
-#trial {margin: 70px 80px 0 0;
+.logo {margin: 80px 0 250px 80px;}
+.illustration {margin-bottom: 298px;}
+.trial {margin: 70px 80px 0 0;
         font-size: 24px;}
 
 .h-build {margin: 0 56px;
@@ -395,18 +395,18 @@ body {font-size: 20px;}
            order: 1;
            margin: 0 115px 0 80px;}
 
-#users {width: 542px;}
+.users {width: 542px;}
 
 .hero {text-align: center;}
 
-#h-ready {margin-top: 318px;}
+.h-ready {margin-top: 318px;}
 
 .h-get {width: 55%;
         font-size: 16px;
         text-align: center;
         font-size: 24px;}
 
-#logo2 {margin-bottom: 45px;}
+.logo-bottom {margin-bottom: 45px;}
 
 .wlogo {fill: white;}
 
@@ -428,7 +428,6 @@ input {width: 250px; height: 50px;}
            flex-flow: column nowrap;
            align-items: center;
            order: 2;}
-
 
 .column1 {width: 25%;
           order: 1;
